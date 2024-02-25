@@ -113,3 +113,11 @@ Route::resource('photos', PhotoController::class)->only([
 
 
 
+   //route view
+   Route::get('/greeting', [WelcomeController::class, 
+   'greeting']);
+   
+    
+
+
+
